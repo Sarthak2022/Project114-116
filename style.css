@@ -1,0 +1,20 @@
+h2{
+    font-size: 25px !important;
+color:blueviolet; 
+}
+
+.btn-success:hover{
+background-color: lightsalmon;    
+}
+
+canvas{
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes example{
+from{box-shadow: 1px 1px 35px rgb(14, 240, 59);}
+to{box-shadow: 1px 1px 35px rgb(148, 11, 161);}
+
+}
